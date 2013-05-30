@@ -3,5 +3,5 @@ if development?
 end
 
 get '/' do
-  "sinatra-contrib test"
+  haml :index
 end
